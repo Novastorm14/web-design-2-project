@@ -9,3 +9,32 @@ html {
 html {
   font-size: 100%;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.about {
+    background-color: #dadada;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.profile {
+  margin: 1em;
+  max-width: 30%;
+  border-radius: 20%;
+}
