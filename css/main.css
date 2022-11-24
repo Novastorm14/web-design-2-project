@@ -12,7 +12,9 @@ html {
 
 header {
   display: flex;
-  flex-direction: row;
+  position: sticky;
+  top: 30px;
+  left: 30px;
 }
 
 nav ul {
@@ -22,12 +24,19 @@ nav ul {
   gap: 1.5rem;
 }
 
+nav ul a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 0.5em;
+}
+
 .logo {
-  max-width: 100px;
+  max-width: 50px;
 }
 
 .about {
-    background-color: #dadada;
+    background-color: #D0E1F5;
     display: flex;
     gap: 0.5em;
     align-items: center;
