@@ -41,8 +41,11 @@ body {
 	font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
 .content {
-  height: 1000px;
   background-color: #ccc;
   display: grid;
   place-items: center;
@@ -151,7 +154,15 @@ nav a:hover {
   opacity: 1;
 }
 
-
+.backimg {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://objects.artspan.com/member/dhamblin/1200/3875218.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1.5em;
+}
 
 
 
