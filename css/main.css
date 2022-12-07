@@ -152,11 +152,11 @@ nav a:hover {
 grid-area: box1;
 }
 
-.title {
+.title-about {
 grid-area: box3;
 }
 
-.desc {
+.desc-about {
 grid-area: box4;
 }
 
@@ -321,10 +321,10 @@ form {
 #about {
   grid-area: box1;
 }
-.title {
+.title-about {
   grid-area: box3;
 }
-.desc {
+.desc-about {
   grid-area: box4;
 }
 
