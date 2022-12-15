@@ -60,10 +60,6 @@ header {
   top: 7px;
 }
 
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
-}
-
 nav {
   position: absolute;
   text-align: left;
@@ -92,7 +88,7 @@ nav li {
 nav a {
   color: #000;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 250ms ease-in-out 250ms;
@@ -136,7 +132,6 @@ nav a:hover {
   background-color: #D0E1F5;
   display: grid;
   padding: 2rem;
-  /* gap: 0.5em; */
 }
 
 .about {
@@ -209,6 +204,12 @@ body {
   padding-bottom: 3rem;
 }
 
+div:hover img{
+  transform: scale(150%);
+  transition: transform .4s;
+  border: 3px solid #000;
+}
+
 b {
   font-family: 'Merriweather', serif;
   font-size: 0.5rem;
@@ -274,6 +275,10 @@ footer img {
 
 @media (prefers-color-scheme: Dark)
 {
+
+  .header, .footer{
+    background: #141415;
+  }
   .content, nav, body, header, footer {
     background: #323232;
     color: #ffffff;
